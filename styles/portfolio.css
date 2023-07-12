@@ -50,3 +50,45 @@ nav a {
     font-weight: 400;
     line-height: normal;
 }
+/* Header banner */
+.header{
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png),url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+    
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.banner-content{
+    max-width: 500px;
+    
+}
+.banner .profile-pic{
+    width: 500px;
+    margin-bottom: -5px;
+    
+
+
+}
+
+
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-title{
+    color:  #181818;
+
+font-size: 65px;
+font-weight: 700;
+margin-top: 5px;
+margin-top: 20px;
+}
+/* main section */
